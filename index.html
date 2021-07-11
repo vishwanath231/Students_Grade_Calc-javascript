@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stu calc</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form_box">
+            <div class="grid">
+                <div class="box">
+                    <div class="title">Students Grade Calc</div>
+                </div>
+                <form id="marks">
+                    <div class="form_div">
+                        <div class="subject">tamil</div>
+                        <input type="text" id="tamil" value="">
+                        <div id="tPass" class="pass"></div>
+                    </div>
+                    <div class="form_div">
+                        <div class="subject">English</div>
+                        <input type="text" id="english" value="">
+                        <div id="ePass" class="pass"></div>
+                    </div>
+                    <div class="form_div">
+                        <div class="subject">Maths</div>
+                        <input type="text" id="maths" value="" >
+                        <div id="mPass" class="pass"></div>
+                    </div>
+                    <div class="form_div">
+                        <div class="subject">Science</div>
+                        <input type="text" id="science" value="" >
+                        <div id="scPass" class="pass"></div>
+                    </div>
+                    <div class="form_div">
+                        <div class="subject">Social</div>
+                        <input type="text" id="social" value="" >
+                        <div id="soPass" class="pass"></div>
+                    </div>
+                    <div class="Btns">
+                        <button type="submit" class="btn__1">show percentage</button>
+                        <button onclick="refreshPage();" class="btn__2">reset</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div id="output">
+            </div>
+        </div>
+    </div>
+ 
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
+
